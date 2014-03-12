@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -ggdb3 -Wno-multichar -Wall -Wno-unused-but-set-variable -O3 -DNDEBUG   -shared -Wl,-soname,libvcos.so -o libvcos.so CMakeFiles/vcos.dir/vcos_pthreads.c.o CMakeFiles/vcos.dir/vcos_dlfcn.c.o CMakeFiles/vcos.dir/__/glibc/vcos_backtrace.c.o vcos_generic/libvcos_generic.a -lpthread -lrt -ldl 

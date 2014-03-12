@@ -1,0 +1,2 @@
+/usr/bin/ar cr libWFC.a  CMakeFiles/WFC.dir/wf/wfc_client_stream.c.o CMakeFiles/WFC.dir/wf/wfc_client_utils.c.o CMakeFiles/WFC.dir/wf/wfc_client.c.o
+/usr/bin/ranlib libWFC.a

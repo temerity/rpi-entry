@@ -1,0 +1,2 @@
+/usr/bin/ar cr libOpenVG.a  CMakeFiles/OpenVG.dir/vg/vg_client.c.o CMakeFiles/OpenVG.dir/vg/vg_int_mat3x3.c.o
+/usr/bin/ranlib libOpenVG.a

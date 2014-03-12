@@ -1,0 +1,38 @@
+y/release -I/home/pi/pew/interface/vchiq_arm -I/home/pi/pew/host_support/include -I/home/pi/pew/vcinclude/include    -o CMake
+Files/WFC.dir/wf/wfc_client_stream.c.o   -c /home/pi/pew/interface/khronos/wf/wfc_client_stream.c
+In file included from /home/pi/pew/interface/vcos/pthreads/vcos_platform.h:166:0,
+                 from /home/pi/pew/interface/vcos/vcos_init.h:16,
+                 from /home/pi/pew/interface/vcos/vcos.h:97,
+                 from /home/pi/pew/interface/vmcs_host/vc_dispmanx.h:19,
+                 from /home/pi/pew/interface/khronos/include/EGL/eglplatform.h:87,
+                 from /home/pi/pew/interface/khronos/include/EGL/egl.h:36,
+                 from /home/pi/pew/interface/khronos/common/khrn_client_platform.h:14,
+                 from /home/pi/pew/interface/khronos/wf/wfc_client_stream.c:15:
+/home/pi/pew/vcfw/vcos/vcos_spinlock_atomic_flags.h: In function vcos_atomic_flags_or:
+/home/pi/pew/vcfw/vcos/vcos_spinlock_atomic_flags.h:33:4: warning: unused variable vcos_pthreads_spinlock_ei [-Wunused-vari
+able]
+/home/pi/pew/vcfw/vcos/vcos_spinlock_atomic_flags.h: In function vcos_atomic_flags_get_and_clear:
+/home/pi/pew/vcfw/vcos/vcos_spinlock_atomic_flags.h:42:4: warning: unused variable vcos_pthreads_spinlock_ei [-Wunused-vari
+able]
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c: In function wfc_stream_create_from_image:
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c:111:10: warning: initialization makes integer from pointer without a ca
+st [enabled by default]
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c:111:10: warning: (near initialization for sem_name[2]) [enabled by de
+fault]
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c:120:7: warning: passing argument 2 of rpc_call7 makes integer from po
+inter without a cast [enabled by default]
+/home/pi/pew/interface/khronos/common/khrn_client_rpc.h:534:20: note: expected uint32_t but argument is of type WFCNativeS
+treamType
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c: In function wfc_stream_get_stream_ptr:
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c:264:4: warning: passing argument 2 of khrn_pointer_map_lookup makes i
+nteger from pointer without a cast [enabled by default]
+/home/pi/pew/interface/khronos/common/khrn_int_generic_map.h:127:1: note: expected uint32_t but argument is of type WFCNat
+iveStreamType
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c:279:10: warning: passing argument 2 of khrn_pointer_map_insert makes
+integer from pointer without a cast [enabled by default]
+/home/pi/pew/interface/khronos/common/khrn_int_generic_map.h:91:1: note: expected uint32_t but argument is of type WFCNati
+veStreamType
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c: In function wfc_stream_destroy_actual:
+/home/pi/pew/interface/khronos/wf/wfc_client_stream.c:298:4: warning: passing argument 2 of rpc_call1 makes integer from po
+inter without a cast [enabled by default]
+

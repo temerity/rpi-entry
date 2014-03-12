@@ -1,0 +1,1 @@
+/usr/bin/gcc  -fPIC  -ggdb3 -Wno-multichar -Wall -Wno-unused-but-set-variable -O3 -DNDEBUG   -shared -Wl,-soname,libGLESv2.so -o libGLESv2.so CMakeFiles/GLESv2.dir/glxx/glxx_client.c.o libkhrn_client.a ../vcos/pthreads/libvcos.so ../vcos/pthreads/vcos_generic/libvcos_generic.a -lpthread -lrt -ldl -Wl,-rpath,/home/pi/pew/build/raspberry/release/interface/vcos/pthreads: 

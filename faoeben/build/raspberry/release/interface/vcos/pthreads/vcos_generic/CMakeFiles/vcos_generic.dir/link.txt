@@ -1,0 +1,2 @@
+/usr/bin/ar cr libvcos_generic.a  CMakeFiles/vcos_generic.dir/vcos_generic_event_flags.c.o CMakeFiles/vcos_generic.dir/vcos_mem_from_malloc.c.o CMakeFiles/vcos_generic.dir/vcos_generic_named_sem.c.o CMakeFiles/vcos_generic.dir/vcos_generic_reentrant_mtx.c.o CMakeFiles/vcos_generic.dir/vcos_abort.c.o CMakeFiles/vcos_generic.dir/vcos_msgqueue.c.o CMakeFiles/vcos_generic.dir/vcos_logcat.c.o
+/usr/bin/ranlib libvcos_generic.a

@@ -1,0 +1,7 @@
+/home/pi/pew/build/raspberry/release/interface/khronos/CMakeFiles/EGL.dir
+/home/pi/pew/build/raspberry/release/interface/khronos/CMakeFiles/GLESv2.dir
+/home/pi/pew/build/raspberry/release/interface/khronos/CMakeFiles/VG.dir
+/home/pi/pew/build/raspberry/release/interface/khronos/CMakeFiles/WFC.dir
+/home/pi/pew/build/raspberry/release/interface/khronos/CMakeFiles/khrn_client.dir
+/home/pi/pew/build/raspberry/release/interface/vcos/pthreads/CMakeFiles/vcos.dir
+/home/pi/pew/build/raspberry/release/interface/vcos/pthreads/vcos_generic/CMakeFiles/vcos_generic.dir
